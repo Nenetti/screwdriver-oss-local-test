@@ -1,0 +1,29 @@
+# ======================================================================================================================
+#
+#     jobs
+#
+# ======================================================================================================================
+jobs:
+  centos7:
+    image: centos:centos7
+    steps:
+      - echo1: echo "Hello world 1"
+      - echo2: echo "Hello world 2"
+
+  centos8:
+    image: centos:centos8
+    steps:
+      - echo1: echo "Hello world 1"
+      - echo2: echo "Hello world 2"
+
+  rocky8:
+    image: rockylinux:8
+    steps:
+      - echo1: echo "Hello world 1"
+      - echo2: echo "Hello world 2"
+
+  golang1.19:
+    image: golang:1.19
+    steps:
+      - echo1: echo "Hello world 1"
+      - echo2: echo "Hello world 2"
